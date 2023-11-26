@@ -41,7 +41,7 @@ export default function TopBar({ showNav, setShowNav }) {
               <div className="relative p-3">
                 <div className="flex justify-between items-center w-full">
                   <p className="text-gray-700 font-medium">Notifications</p>
-                  <a className="text-sm text-orange-500" href="#">
+                  <a className="text-sm text-red-500" href="#">
                     Mark all as read
                   </a>
                 </div>
@@ -114,7 +114,7 @@ export default function TopBar({ showNav, setShowNav }) {
                 />
               </picture>
               <span className="hidden md:block font-medium text-gray-700">
-                Rettson
+                João 
               </span>
               <ChevronDownIcon className="ml-2 h-4 w-4 text-gray-700" />
             </Menu.Button>
@@ -133,7 +133,7 @@ export default function TopBar({ showNav, setShowNav }) {
                 <Menu.Item>
                   <Link
                     href="#"
-                    className="flex hover:bg-orange-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center"
+                    className="flex hover:bg-red-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center"
                   >
                     <PencilIcon className="h-4 w-4 mr-2" />
                     Edit
@@ -142,7 +142,7 @@ export default function TopBar({ showNav, setShowNav }) {
                 <Menu.Item>
                   <Link
                     href="#"
-                    className="flex hover:bg-orange-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center"
+                    className="flex hover:bg-red-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center"
                   >
                     <CreditCardIcon className="h-4 w-4 mr-2" />
                     Billing
@@ -151,7 +151,7 @@ export default function TopBar({ showNav, setShowNav }) {
                 <Menu.Item>
                   <Link
                     href="#"
-                    className="flex hover:bg-orange-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center"
+                    className="flex hover:bg-red-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center"
                   >
                     <Cog8ToothIcon className="h-4 w-4 mr-2" />
                     Settings
